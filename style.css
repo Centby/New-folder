@@ -1,0 +1,48 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.article {
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: rgb(245, 220, 245);
+}
+.article img {
+    max-width: 40%;
+    height: 400px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+h2 {
+    font-size:20px; 
+    text-align:center; 
+    font-family:'Arial';
+}
+h3 {
+    font-size:20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family:'Arial';
+    text-align:justify;
+}
+
+.author {
+    margin-right: auto;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    color:rgb(10, 10, 10);
+}
