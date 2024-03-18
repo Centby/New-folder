@@ -5,9 +5,9 @@ body{
 
 .article {
     display:flex;
-    align-items: center;
-    flex-direction:column;
-    padding: 40px;
+    flex-direction:row-reverse;
+    align-items:center;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 20px;
     background-color: rgb(245, 220, 245);
@@ -26,7 +26,7 @@ h1 {
 h2 {
     font-size:20px; 
     text-align:center; 
-    font-family:'Arial';
+    font-family:'Times New Roman';
 }
 h3 {
     font-size:20px;
@@ -35,14 +35,20 @@ h3 {
 p {
     font-size: 16px;
     line-height: 1.6;
-    margin-bottom: 20px;
-    font-family:'Arial';
+    width: 95%;
+    margin-bottom: 10px;
+    font-family:'Georgia';
     text-align:justify;
 }
 
-.author {
-    margin-right: auto;
-    font-style: italic;
-    font-family: 'Times New Roman';
-    color:rgb(10, 10, 10);
+.container {
+    display:flex;
+    font-size: 16px;
+    justify-content:space-between;
+    width:100%
+}
+
+hr {
+    border-width:3px; 
+    border-color:purple;
 }
