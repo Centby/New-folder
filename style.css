@@ -40,12 +40,14 @@ p {
     font-family:'Georgia';
     text-align:justify;
 }
-
-.author {
-    font-size: 16px;
+.float {
+    width:100%;
     font-family:'Arial';
 }
-
+.float div {
+    width:33.3%;
+    float:left;
+}
 hr {
     border-width:3px; 
     border-color:purple;
